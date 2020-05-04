@@ -1,0 +1,7 @@
+#navbar-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    & a {
+        margin: 8px;
+    }
+}

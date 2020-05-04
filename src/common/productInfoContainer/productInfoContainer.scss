@@ -1,0 +1,17 @@
+.product-info-container {
+    display: flex;
+    align-items: center;
+    img {
+      width: 4rem;
+      height: 4rem;
+      margin-right: 1rem;
+      object-fit: contain;
+      display: block;
+    }
+    .product-title {
+      width: 10rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
